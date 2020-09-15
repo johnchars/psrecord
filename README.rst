@@ -29,6 +29,17 @@ To install, simply do::
 Usage
 =====
 
+new_script
+------
+
+增加一个plot.py脚本，用于离线的绘制plot
+
+::
+
+	./plot --log activity.txt --plot pic.png
+
+其中 ``--log``是源CPU活动记录; ``--plot`` 是输出的图片名称
+
 Basics
 ------
 
